@@ -20,8 +20,8 @@ public class TestBasico {
     }
 
     @Test
-    public void prueba_para_que_lo_vea_marta() {
+    public void prueba_minima() {
       String a = "OK";
-      System.out.println(a);
+      Assert.assertNotNull(a);
     }
 }

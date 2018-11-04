@@ -11,8 +11,8 @@ xsi:schemaLocation="
     <configuration>
         <property name="managementAddress">127.0.0.1</property>
         <property name="managementPort">9990</property>
-        <property name="username">jose</property>
-        <property name="password">jose</property>
+        <property name="username">arquillian</property>
+        <property name="password">arquillian</property>
     </configuration>
   </container>
 </arquillian>
