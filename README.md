@@ -5,8 +5,9 @@ Proyecto mínimo funcionando con:
 * arquillian
 * wildfly en sobre docker
 
-Wildfly remoto funcionado sobre Docker
+Wildfly remoto funcionado sobre Docker.
 
+El objetivo es comprobar que todos los elementos están funcionado adecuadamente.
 
 ### Imagen Docker de WildFly para tests
 
@@ -28,7 +29,7 @@ Administración de WildFly en http://localhost:9990.
 
 ### Tests con Arquillian
 
-Simplemente:
+Asumimos que tenemos WildFly accesible en localhost:9990 (ver apartado anterior). Entonces simplemente:
 
 ```
 mvn clean test -Parq-wildfly-remote
